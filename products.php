@@ -16,7 +16,7 @@
         <img class="card-img-top" src="./assets/asus.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">ASUS Laptop E210MA-TB</h5>
-            <p class="card-text"style="color:red; "><b>₱12,495.00</b></p>
+            <p class="card-text"style="color:red; "><b>12,495.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -25,7 +25,7 @@
         <img class="card-img-top" src="./assets/iphone.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Apple iphone 14 PRO Max</h5>
-            <p class="card-text"style="color:red; "><b>₱67,000.00</b></p>
+            <p class="card-text"style="color:red; "><b>67,000.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -34,7 +34,7 @@
         <img class="card-img-top" src="./assets/headphones.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Bluetooth Headphones</h5>
-            <p class="card-text"style="color:red; "><b>₱1,500.00</b></p>
+            <p class="card-text"style="color:red; "><b>1,500.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -43,7 +43,7 @@
         <img class="card-img-top" src="./assets/speaker.png" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Fantech Speaker</h5>
-            <p class="card-text"style="color:red; "><b>₱ 500.00</b></p>
+            <p class="card-text"style="color:red; "><b> 500.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>  
@@ -52,7 +52,7 @@
         <img class="card-img-top" src="./assets/asus.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">ASUS Laptop E210MA-TB</h5>
-            <p class="card-text"style="color:red; "><b>₱12,495.00</b></p>
+            <p class="card-text"style="color:red; "><b>12,495.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -61,7 +61,7 @@
         <img class="card-img-top" src="./assets/iphone.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Apple iphone 14 PRO Max</h5>
-            <p class="card-text"style="color:red; "><b>₱67,000.00</b></p>
+            <p class="card-text"style="color:red; "><b>67,000.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -70,7 +70,7 @@
         <img class="card-img-top" src="./assets/headphones.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Bluetooth Headphones</h5>
-            <p class="card-text"style="color:red; "><b>₱1,500.00</b></p>
+            <p class="card-text"style="color:red; "><b>1,500.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -79,7 +79,7 @@
         <img class="card-img-top" src="./assets/speaker.png" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Fantech Speaker</h5>
-            <p class="card-text"style="color:red; "><b>₱ 500.00</b></p>
+            <p class="card-text"style="color:red; "><b> 500.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    

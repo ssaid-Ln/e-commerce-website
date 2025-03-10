@@ -20,7 +20,7 @@
         <img class="card-img-top" src="./assets/asus.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">ASUS Laptop E210MA-TB</h5>
-            <p class="card-text"style="color:red; "><b>₱12,495.00</b></p>
+            <p class="card-text"style="color:red; "><b>12,495.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -29,7 +29,7 @@
         <img class="card-img-top" src="./assets/laptop1.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Samsung Chromebook 4</h5>
-            <p class="card-text"style="color:red; "><b>₱50,000.00</b></p>
+            <p class="card-text"style="color:red; "><b>50,000.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -38,7 +38,7 @@
         <img class="card-img-top" src="./assets/laptop2.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Dell Laptop E6420</h5>
-            <p class="card-text"style="color:red; "><b>₱45,500.00</b></p>
+            <p class="card-text"style="color:red; "><b>45,500.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
     </div>    
@@ -47,7 +47,7 @@
         <img class="card-img-top" src="./assets/laptop3.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Apple MacBook Air 13-inch</h5>
-            <p class="card-text"style="color:red; "><b>₱ 45,500.00</b></p>
+            <p class="card-text"style="color:red; "><b> 45,500.00€</b></p>
             <a href="#" class="btn btn-dark">Add To Cart</a>
         </div>
 

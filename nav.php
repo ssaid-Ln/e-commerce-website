@@ -37,10 +37,12 @@
         
       </ul>
       
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <form action="search.php" method="GET" class="mb-4">
+      <div class="input-group">
+        <input type="text" class="form-control" name="search" placeholder="Search products..." value="">
+        <button type="submit" class="btn btn-dark">Search</button>
+      </div>
+    </form>
 
       <ul class="navbar-nav mb-2 mb-lg-0">
       <li class="nav-item "><a class="nav-link " href="login.php">Log In</a> </li>
