@@ -1,22 +1,29 @@
 <?php
+include 'dbcon.php';
+
 
 $search_query = isset($_GET['search']) ? trim($_GET['search']) : '';  
-$search_results = []; 
-
+$search_results = [];
 
 if ($search_query !== '') {
-    $all_products = [
-        ["name" => "ASUS Laptop E210MA-TB", "price" => "12,495.00€", "url" => "./assets/asus.jpg"],
-        ["name" => "Apple iphone 14 PRO Max", "price" => "67,000.00€", "url" => "./assets/iphone.jpg"],
-        ["name" => "Bluetooth Headphones", "price" => "1,500.00€", "url" => "./assets/headphones.jpg"]
-    ];
+    $stmt = $con->prepare("SELECT name, price,url FROM products WHERE name LIKE ?");
+    $search_param = "%" . $search_query . "%";
+    $stmt->bind_param("s", $search_param);
     
-    foreach ($all_products as $product) {
-        if (stripos($product["name"], $search_query) !== false) {
-            $search_results[] = $product;
-        }
+   
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+   
+    while ($row = $result->fetch_assoc()) {
+        $search_results[] = $row;
     }
+
+    $stmt->close();
 }
+
+
+$con->close();
 ?>
 
 <!DOCTYPE html>
@@ -34,9 +41,8 @@ if ($search_query !== '') {
   <!-- Include the navigation bar -->
   <?php include 'nav.php'; ?>
 
-  <!-- Search form -->
+  <!-- Search Results -->
   <div class="container mt-4">
-    <!-- Search Results -->
     <?php if ($search_query !== ''): ?>
       <h2 class="text-center">Search Results for: "<?php echo htmlspecialchars($search_query); ?>"</h2>
 
@@ -51,7 +57,7 @@ if ($search_query !== '') {
                 <img class="card-img-top" src="<?php echo htmlspecialchars($product['url']); ?>" alt="Product image">
                 <div class="card-body">
                   <h5 class="card-title"><?php echo htmlspecialchars($product['name']); ?></h5>
-                  <p class="card-text" style="color: red;"><b><?php echo htmlspecialchars($product['price']); ?></b></p>
+                  <p class="card-text" style="color: red;"><b><?php echo htmlspecialchars($product['price']); ?>€</b></p>
                   <a href="#" class="btn btn-dark">Add To Cart</a>
                 </div>
               </div>
